@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Client/devxamarin/bin
+/Client/devxamarin/obj
+/Client/packages
+/Client/Droid/bin
+/Client/Droid/obj
+/Client/UWP/obj
+/Client/UWP/bin
+/BackEnd/devxamarinService/bin
+/BackEnd/devxamarinService/obj
+/BackEnd/packages

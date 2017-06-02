@@ -8,7 +8,7 @@
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UWP</RootNamespace>
-    <AssemblyName>UWP</AssemblyName>
+    <AssemblyName>DevXamarin.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>

@@ -10,7 +10,7 @@ using Gcm.Client;
 
 namespace devxamarin.Droid
 {
-	[Activity (Label = "devxamarin.Droid",
+	[Activity (Label = "DevXamarin.Droid",
 		Icon = "@drawable/icon",
 		MainLauncher = true,
 		ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
