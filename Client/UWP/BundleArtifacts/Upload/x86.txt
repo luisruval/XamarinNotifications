@@ -1,0 +1,2 @@
+MainPackage=C:\Dev\Xamarin\Notifications\DevXamarin\UWP\bin\x86\Release\Upload\DevXamarin.UWP_1.1.0.0_x86.appx
+SymbolPackage=C:\Dev\Xamarin\Notifications\DevXamarin\UWP\bin\x86\Release\Upload\DevXamarin.UWP_1.1.0.0\DevXamarin.UWP_1.1.0.0_x86.appxsym

@@ -1,0 +1,1 @@
+C:\Dev\Xamarin\Notifications\DevXamarin\UWP\bin\x64\Release\Upload\DevXamarin.UWP_1.1.0.0\DevXamarin.UWP_1.1.0.0_x86_x64_arm.appxbundle
