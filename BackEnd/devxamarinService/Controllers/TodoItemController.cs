@@ -64,7 +64,7 @@ namespace devxamarinService.Controllers
 
             // Take the first 5 characters of the item ID
             string subID = item.Id.Substring(0, 5);
-            templateParams["messageParam"] = "Reto N - ID: " + subID + " Email: + " + item.Text;
+            templateParams["messageParam"] = "ID: " + subID + " Text: " + item.Text;
 
             try
             {

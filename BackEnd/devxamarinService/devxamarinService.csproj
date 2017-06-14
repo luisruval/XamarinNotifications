@@ -156,19 +156,19 @@
     <Compile Include="Controllers\TodoItemController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DataObjects\TodoItem.cs" />
-    <Compile Include="demo.aspx.cs">
-      <DependentUpon>demo.aspx</DependentUpon>
+    <Compile Include="demo\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="demo.aspx.designer.cs">
-      <DependentUpon>demo.aspx</DependentUpon>
+    <Compile Include="demo\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\devxamarinContext.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="demo.aspx" />
+    <Content Include="demo\default.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
