@@ -61,7 +61,10 @@ namespace devxamarinService.Controllers
             // Sending the message so that all template registrations that contain "messageParam"
             // will receive the notifications. This includes APNS, GCM, WNS, and MPNS template registrations.
             Dictionary<string, string> templateParams = new Dictionary<string, string>();
-            templateParams["messageParam"] = item.Text + " was added to the list.";
+
+            // Take the first 5 characters of the item ID
+            string subID = item.Id.Substring(0, 5);
+            templateParams["messageParam"] = "Reto N - ID: " + subID + " Email: + " + item.Text;
 
             try
             {

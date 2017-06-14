@@ -41,7 +41,8 @@ namespace devxamarin
         async Task AddItem(TodoItem item)
         {
             await manager.SaveTaskAsync(item);
-            todoList.ItemsSource = await manager.GetTodoItemsAsync();
+            var currentItems = await manager.GetTodoItemsAsync();
+            todoList.ItemsSource = currentItems;
         }
 
         async Task CompleteItem(TodoItem item)
